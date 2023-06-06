@@ -104,6 +104,10 @@ a = c
 print(a)
 print(b)
 
+#permutation des valeurs à l'aide de la méthode Pythonique
+#destructured assignment
+b, a = a, b
+
 #permutation des valeurs à l'aide d'opérations arithmétiques (plus complexe)
 #a = a + b
 #b = a - b
@@ -116,6 +120,7 @@ print(b)
 #cela affiche 0.30000000004 au lieu de 0.3
 print(0.1+0.1+0.1) 
 
+import decimal
 from decimal import Decimal
 
 #affiche correctement 0.3
@@ -127,3 +132,8 @@ print(Decimal("0.3"))
 #ne fonctionne pas pour additionner les floats
 #affiche "0.10.10.1"
 print("0.1"+"0.1"+"0.1")
+
+#arrondi des floats
+decimal.getcontext().rounding = decimal.ROUND_HALF_UP
+print(Decimal("0.05").quantize(Decimal("1")))
+print(Decimal("0.15").quantize(Decimal("0.1")))
