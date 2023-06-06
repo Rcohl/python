@@ -111,3 +111,19 @@ print(b)
 
 #print(a)
 #print(b)
+
+#addition de float
+#cela affiche 0.30000000004 au lieu de 0.3
+print(0.1+0.1+0.1) 
+
+from decimal import Decimal
+
+#affiche correctement 0.3
+print(Decimal("0.1")+Decimal("0.1")+Decimal("0.1"))
+
+#affiche correctement 0.3
+print(Decimal("0.3"))
+
+#ne fonctionne pas pour additionner les floats
+#affiche "0.10.10.1"
+print("0.1"+"0.1"+"0.1")
