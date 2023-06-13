@@ -12,3 +12,22 @@ console.log(text1 == number1)
 //renvoie false
 console.log(number1 === text1)
 console.log(text1 === number1)
+
+//opérateur d'incrémentation
+console.log(number1)
+
+// number1 = number1 + 1
+number1++;
+console.log(number1);
+
+// attention : l'incrémentation se fait après l'affichage
+console.log(number1++);
+console.log(number1);
+
+// solution : l'incrémentation se fait aprè l'affichage
+console.log(++number1);
+
+// number1 = number1 - 1
+// number1 -= 1
+number1--;
+console.log(number1)
