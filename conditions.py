@@ -94,3 +94,19 @@ print(False and False)
 # True   False  False     True
 # False  True   False     True
 # False  False  False     True
+
+#syntaxe alternative spécifique à Python équivalent de : age >= 12 and age <=25
+print(12 <= age <= 25)
+
+#OU exclusif (xor)
+print(True ^ True)
+print(True ^ False)
+print(False ^ True)
+print(False ^ False)
+
+#table de vérité de l'opérateur xor
+# A      B      A xor B
+# True   True   False
+# True   False  True
+# False  True   True
+# False  False  False
