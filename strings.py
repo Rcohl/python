@@ -58,20 +58,18 @@ print(text8)
 
 #documenter une fonction, on le fait avec 3 "
 
-"""cette fonction renvoie: 
--oui si le paramètre passé est True
--non si le paramètre passé est False
--"" dans les autres cas
-
-value bool valeur qui sera transformée en "oui" ou "non"
-return str"""
-
 def ouiNon(value):
     if value == True:
         return "oui"
     elif value == False:
         return "non"
+    """cette fonction renvoie: 
+    -oui si le paramètre passé est True
+    -non si le paramètre passé est False
+    -"" dans les autres cas
+
+    value bool valeur qui sera transformée en "oui" ou "non"
+    return str"""
     
-    return ""
-    
+    return "" 
 help(ouiNon)
