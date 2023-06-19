@@ -13,6 +13,6 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
  #print(i)
 
 target = 3.14
-for i in range(len(my_list)):
+for i in range(0, len(my_list)):
     if my_list[i] == target:
         print(f"{target} trouver à l'index {i}")
