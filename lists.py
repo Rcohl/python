@@ -61,3 +61,12 @@ numbers = ['g','d','a','c','b','e','f']
 numbers = sorted(numbers)
 print(numbers)
 
+# liste en 2D
+players = [
+    [42000,46400,32103],
+    [16700,44667,57287],
+]
+
+row = 0
+col = 0
+print(players[0][0])

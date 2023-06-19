@@ -64,3 +64,25 @@ for i in range(1, 11):
     print(f"{i = }")
     print(f"{accumulateur = }")
 
+# liste en 2D
+# players = [
+#     [42000,46400,32103],
+#     [16700,44667,57287],
+# ]
+
+# row = 0
+# col = 0
+#print(players[0][0])
+
+players = [
+        [42000,46400,32103],
+        [16700,44667,57287],
+]
+for line_index in range(0, len(players)):
+    line = players[line_index]
+
+    for col_index in range(0, len(line)):
+        score = line[col_index]
+        
+        print(score)
+
