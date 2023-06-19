@@ -56,3 +56,11 @@ for i, user in enumerate(users):
 for i in range(0, len(users)):
     user = users[i]
     print(f"{i = }, {user = }")
+
+# accumulateur
+accumulateur = 0
+for i in range(1, 11):
+    accumulateur = accumulateur + i # accumulateur += i
+    print(f"{i = }")
+    print(f"{accumulateur = }")
+
