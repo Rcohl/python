@@ -9,7 +9,7 @@ my_list = [2.71, 42]
 # réponse 6.8
 
 result = 0
-for ele in range(0 , len(my_list)):
-    result = result + my_list[ele]
+for element in range(0 , len(my_list)):
+    result = result + my_list[element]
 
 print(result)
