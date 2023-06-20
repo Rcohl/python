@@ -85,4 +85,4 @@ for line_index in range(0, len(players)):
         score = line[col_index]
         
         print(score)
-
+        
