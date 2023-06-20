@@ -6,3 +6,4 @@
 # pour afficher 99 inclus cela revient à afficher 100 exclus
 for number in range(0, 100):
     print(number)
+
