@@ -16,9 +16,8 @@ for _ in range(0, size):
 print(matrix)
 
 # réponse 6.17
-
-column = 3
-row = 2
-
-value = matrix[row][column]
-print("Valeur à la colonne 4, ligne 3 :", value)
+for row in range(size):
+    for col in range(size):
+        if row == 2 and col == 3:  
+            valeur = matrix[row][col]
+            print("La valeur à la colonne 4, ligne 3 est :", valeur)
