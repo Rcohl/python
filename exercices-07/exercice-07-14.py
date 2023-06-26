@@ -9,7 +9,7 @@ count = 0
 
 for i in range(101):
     r = random.randint(1, 10)
-    if r <=2 or r >= 9:
+    if r % 2:
         count += 1
 
 print("Nombre de fois où r est pair:", count)
