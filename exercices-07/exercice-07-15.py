@@ -5,11 +5,7 @@
 
 import random
 
-count = 0
-
 for i in range(2 , 100):
     r = random.randint(1, 10)
-    if r % 3:
-        count += 1
-
-print("Nombre de fois où r est divisible par 3:", count)
+    if r % 3 == 0:
+        print(r)
