@@ -9,10 +9,10 @@
 # réponse 9.1
 
 my_dict = {
-    1: 42,
-    2: 3.14,
-    3: 'abc',
-    4: True,
+    "abc": 42,
+    "def": 3.14,
+    "ghi": 'abc',
+    "jkl": True,
 }
 
 print(my_dict)
