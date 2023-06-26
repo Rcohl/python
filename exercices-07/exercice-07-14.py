@@ -5,11 +5,7 @@
 
 import random
 
-count = 0
-
 for i in range(1, 101):
     r = random.randint(1, 10)
-    if r % 2:
-        count += 1
-
-print("Nombre de fois où r est pair:", count)
+    if r % 2 == 0:
+        print(r)
