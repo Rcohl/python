@@ -10,7 +10,7 @@ import random
 count = 0
 
 for i in range(100):
-    r = random.randint(1, 10)
+    r = random.randint(2, 10)
     if r >= 2 and r <= 9:
         count += 1
 
