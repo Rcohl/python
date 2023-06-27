@@ -41,3 +41,24 @@ def my_func4():
 my_func4()
 # la variable définie à l'extérieur de la fonction reste inchangée
 print(my_var4)
+
+def my_func5(my_var5):
+    my_var5 = 'foo'
+    print(my_var5)
+
+my_var6 = 123
+# le passage de paramètre se fait par valeur càd que python copie la valeur dans une autre variable 
+# (qui est le paramètre de la fonction)
+# les variables de types int, float, bool ou str sont passés par valeurs càd 
+# que la fonction pourra accéder qu'à une copie de la variable originale définie à l'extérieur 
+my_func5(my_var6)
+print(my_var6)
+
+def my_func6(my_var7: list):
+    my_var7.append('foo')
+
+my_var8 = [123, 42, 3.14]
+# les variables de types list, dict, tuple ou objet sont passés par références càd 
+# que la fonction pourra accéder à la variable originale définie à l'extérieur
+my_func6(my_var8)
+print(my_var8)
